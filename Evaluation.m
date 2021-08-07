@@ -1,7 +1,7 @@
 clear all;
 close all;
-trainPath='C:\Users\Fau\Downloads\CWMaterial\CWMaterial\FaceDatabase\Train\'; % provide full path here
-testPath='C:\Users\Fau\Downloads\CWMaterial\CWMaterial\FaceDatabase\Test\';
+trainPath=''; % provide full path here
+testPath='';
 %% Baseline Method
 tic;
    outputLabel=Benchmark(trainPath, testPath);
